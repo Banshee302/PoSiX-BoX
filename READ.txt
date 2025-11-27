@@ -1,0 +1,11 @@
+PoSiX-BoX is a Open Source Free Linux Emulator for Windows hosts.
+
+It runs a Linux Console ontop the Emulator, meaning the Emulator is the middleman for the Host OS and the Emulated OS.
+
+This is primarily written in C++, as it's the language I know the best, I would love for contributions or forks.
+
+It runs its own POSIX layer called "PoSiXBoX-POSIX" which is majorly close to POSIX itself, just lighter.
+
+You can develop for POSIXBox, all scripts and executables in /system/modules are used in the emulated system. You can also mount files to the Emulated System too, most of the Emulated Systems files are in /System, because this is where the system is put in once booted, and is isolated there.
+
+PoSiX-BoX was built for Intel x86 architecture, so prebuilt binaries will not work for ARM, Aarch64 (or arm64) or PowerPC.
